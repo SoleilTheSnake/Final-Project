@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: lightgray;
+  color: #27272B;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #27272B;
+  color: #DDE0BD
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input {
+  padding: 5px;
+}
+
+.search-form button {
+  padding: 5px 10px;
+}
+
+
+a:link {
+  color: #B6A39E;
+  text-decoration: none;
+  background-color: #27272B;
+}
+
+a:visited {
+  color: #DDE0BD;
+  text-decoration: none;
+  background-color: #27272B;
+}
+a:hover {
+  color: #D0D1AC;
+  text-decoration: underline;
+  background-color: #27272B;
+}
+a:active {
+  color: #948B89;
+  text-decoration: underline;
+  background-color: #27272B;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+input, textarea, select {
+
+background-color: #4E4E56;
+color: lightgray;
+width: 50%;
+}
+img {
+  border-radius: 8px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#volunteer-form {
+  display: none;
+}

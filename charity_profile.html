@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity Profile</title>
+  <link rel="stylesheet" href="HelpHub_Styles.css">
+  <script src="charity_profile.js" defer></script>
+</head>
+<body>
+  <header>
+    <p class="logo">HelpHub</p>
+    <nav class="navbar">
+      <a href="Index.html">Homepage</a>
+      <a href="Charities.html">Charities List</a>
+    </nav>
+  </header>
+
+  <div style="border: 2px solid #726E75; padding: 30px; text-align: center; background-color: #726E75;">
+    <h1>Uplift LGBTQ+ Youth Outreach Center</h1>
+    <h2 id="charity-name"></h2> <!-- This will be dynamically updated -->
+  </div>
+
+  <h2 style="text-align: center;">Our mission and vision:</h2>
+  <h3 style="border: 2px solid black; padding: 10px; background-color: #6B6B76;">
+    "Our mission is to provide a much-needed safe space for LGBTQ+ youth and young adults/adults in Spartanburg, SC and surrounding areas.
+    We are committed to creating an environment shared by community leaders who will assist us in providing community resources.
+    We envision increasing advocacy of LGBTQ+ by providing education to the community and organizations such as schools, health, and mental health programs.
+    Especially youth who have a limited voice."
+  </h3>
+
+  <div style="text-align: center; color: #6B6B76;">
+    <button id="volunteer-btn" style="font-size: 1.5em; padding: 10px 20px; cursor: pointer;">
+      Volunteer Now!
+    </button>
+  </div>
+
+  <form id="volunteer-form" style="text-align: center; display: none;">
+    <label for="name">First and Last name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Enter your email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Enter your phone number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <!-- Supposed to set the nonprofit data but the charity I chose apparently doesnt have anything anywhere apart from their own website. -->
+  <div id="api-data" style="text-align: center; margin-top: 20px;"></div>
+
+</body>
+</html>
